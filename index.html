@@ -1,17 +1,50 @@
+
 <html>
+
 <head>
-<title>你必须喜欢我</title>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<meta name="copyright" content="http://www.javascriptbank.com" />
-<script type="text/javascript"> flag=1 function f1() { alert("是的. 你选对了") } function f() { if(flag==1) { Bn.style.top=90 Bn.style.left=500 flag=2 } else if(flag==2) { Bn.style.top=90 Bn.style.left=50 flag=3 } else if(flag==3) { Bn.style.top=235 Bn.style.left=360 flag=1 } } </script>
+	<title>你必须喜欢我</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="http://www.javascriptbank.com" />
+	<meta name="distribution" content="Global" />
+	<meta name="copyright" content="JavaScriptBank.com" />
+<script type="text/javascript">
+flag=1
+function f1()
+{
+	alert("你的选择无比正确 ")
+}
+function f()
+{
+	if(flag==1)
+		{
+			Bn.style.top=90
+			Bn.style.left=500
+			flag=2
+		}
+	else if(flag==2)
+		{
+			Bn.style.top=90
+			Bn.style.left=50
+			flag=3
+		}
+	else if(flag==3)
+		{
+			Bn.style.top=235
+			Bn.style.left=360
+			flag=1
+		}
+}
+</script>
 </head>
 <body>
-<h1 style="position:absolute; left:220px; top:175px; width:auto; height:210px;">Do you love me?</h1>
-<div id="By" style="position:absolute; left:285px; top:235px; width:210px; height:210px;">
-	<input type="button" value=" 当然 " onclick="f1undefined)" />
+<h1 style="position:absolute; left:220px; top:175px; width:auto; height:210px;">你喜欢我吗?</h1>
+</br>
+<div id="By" style="position:absolute; left:285px; top:235px; width:210px; 
+height:210px;">
+	<input type="button" value=" 当然 " onclick="f1()" />
 </div>
-<div id="Bn" style="position:absolute; left:360px; top:235px; width:210px; height:210px;">
-	<input type="button" value=" 你想得挺美 " onmouseover="fundefined)" />
+<div ID="Bn" style="position:absolute; left:360px; top:235px; width:210px; height:210px;">
+	<input type="button" value="  你想得美  " onmouseover="f()" />
 </div>
-</body>
-</html>
+</BODY>
+</html
